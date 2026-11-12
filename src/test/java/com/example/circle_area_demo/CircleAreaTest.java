@@ -7,7 +7,7 @@ class CircleAreaTest {
 
     @Test
     void testAreaRadius5() {
-        assertEquals(79, CircleArea.calculateArea(5), 0.0001);
+        assertEquals(78.5398, CircleArea.calculateArea(5), 0.0001);
     }
 
     @Test
